@@ -1,25 +1,24 @@
-Unicode Normalization URL Tester
+# Unicode Normalization URL Tester
 
-Introduction
+## Introduction
 
 This Python script is designed to test how a server handles Unicode normalization in URLs. It checks whether the server treats URLs with characters in both NFC (Normalization Form C) and NFD (Normalization Form D) the same way. This is important for ensuring consistent user experiences and preventing potential security issues.
 
-Features
+## Features
 
 Tests URLs with Unicode characters in both NFC and NFD forms.
 User input for base URL.
 Easy comparison of server responses to check for correct Unicode normalization handling.
 
-Installation
+## Installation
 
 Before running the script, ensure you have Python installed on your system. You also need the requests library, which can be installed using pip:
-
 
 ```
 pip install requests
 ```
 
-Usage
+## Usage
 
 To use the script, follow these steps:
 
@@ -39,6 +38,6 @@ Enter the base URL when prompted.
 
 The script will display whether the server handles Unicode normalization correctly.
 
-Contributing
+## Contributing
 
 Contributions to this script are welcome! Feel free to fork the repository and submit pull requests.
